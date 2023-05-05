@@ -12,11 +12,7 @@ import { Loader } from "../hooks/Loader";
 const Sphere = (props: any) => {
   const [decal] = useTexture([props.imgURL]);
   return (
-    <Float
-      speed={5}
-      rotationIntensity={4}
-      floatIntensity={2}
-    >
+    <Float speed={2} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
@@ -27,7 +23,11 @@ const Sphere = (props: any) => {
           polygonOffsetFactor={-5}
           flatShading
         />
-        <Decal position={[0, 0, 1]} map={decal} />
+        <Decal 
+        position={[0, 0, 1]}
+        rotation={[2*Math.PI, 0,6.25]}
+        flatShading
+        map={decal} />
       </mesh>
     </Float>
   );
@@ -35,7 +35,7 @@ const Sphere = (props: any) => {
 
 const SphereCanvas = ({ icon }: any) => {
   return (
-    <div className="h-full w-full">
+    
       <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
         <Suspense fallback={<Loader />}>
           <OrbitControls enableZoom={false} />
@@ -43,7 +43,7 @@ const SphereCanvas = ({ icon }: any) => {
         </Suspense>
         <Preload all />
       </Canvas>
-    </div>
+ 
   );
 };
 
