@@ -1,8 +1,9 @@
 import { useFrame, useLoader } from "@react-three/fiber";
-import { useRef } from "react";
+import { useRef, Suspense } from "react";
 import { TextureLoader, Mesh } from "three";
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
+import { Loader } from "../hooks/Loader"
 
 const Box = () => {
   const imageMap = useLoader(TextureLoader, "IMG_7206.jpg");
@@ -25,12 +26,14 @@ const Box = () => {
 const ThreeBoxCanvas = () => {
 
   return (
-    <div className='h-full w-full bg-black'>
+    <div className='h-full w-full '>
         <Canvas 
             shadows='basic'
             camera={{position:[20,3,5], fov:25}}>
+            <Suspense fallback={<Loader />}>
             <OrbitControls enableZoom={false}/>
             <Box/>
+            </Suspense>
         </Canvas>
     </div>
   )

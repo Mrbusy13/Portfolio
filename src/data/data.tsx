@@ -77,3 +77,23 @@ export const technologies = [
         icon: vite
     }
 ]
+
+export const projects = [
+    {
+        title: "Student Hub",
+        image: "",
+        summary: "First School of Code Project. Worked in a group of 4 to develop a tech solution that would help other bootcampers",
+        github: "github link",
+        url: "url",
+        techstack:["React", "Node", "Express", "Tailwind CSS", "Postgres", "Jest" ]
+    },
+    {
+        title: "IndyGo",
+        image: "",
+        Summary: "Final School of Code Project. Worked in a group of 6 to develop a ",
+        Info:"The brief was to identify an issue and solve it using a tech solution",
+        github: "github link",
+        url: "url",
+        techstack:["Next.js", "Typescript", "Supabase", "SupabaseAuth", "Leaflet.js", "Tailwind CSS", "Jest", "Cypress" ]
+    }
+]
