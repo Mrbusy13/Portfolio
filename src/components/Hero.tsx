@@ -3,6 +3,9 @@ import { TypeAnimation } from "react-type-animation";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 const Hero = () => {
+  const openInNewTab = (url:any) => {
+    window.open(url, "_blank", "noreferrer")
+  };
   return (
     <div id="main" >
       <div className='relative h-screen w-full'>
@@ -42,8 +45,8 @@ const Hero = () => {
             </h2>
           
           <div className="pt-6 text-white flex justify-around max-w-[200px] w-full">
-            <AiOutlineGithub className="cursor-auto" size={40} />
-            <AiOutlineLinkedin className="cursor-auto" size={40} />
+            <AiOutlineGithub onClick={()=>openInNewTab('https://github.com/Mrbusy13')} className="cursor-pointer hover:scale-110" size={40} />
+            <AiOutlineLinkedin onClick={()=>openInNewTab('https://www.linkedin.com/in/nick-hughes-7a5a428b/')} className="cursor-pointer hover:scale-110" size={40} />
           </div>
         </div>
         </div>

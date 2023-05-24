@@ -12,23 +12,23 @@ const Sidenav = () => {
       {
         nav ? (
             <div className='fixed w-full h-screen flex flex-col justify-center items-center z-20'>
-              <a href="#main" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
+              <a onClick={handleNav} href="#main" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
                 <AiOutlineHome size={20}/>
                 <span className='pl-4'>Home</span>
               </a>
-              <a href="#about" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
+              <a onClick={handleNav} href="#about" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
                 <AiOutlineUser size={20}/>
                 <span className='pl-4'>About</span>
               </a>
-              <a href="#tech" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
+              <a onClick={handleNav} href="#tech" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
                 <AiOutlineTool size={20}/>
                 <span className='pl-4'>Tech</span>
               </a>
-              <a href="#projects" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
+              <a onClick={handleNav} href="#projects" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
                 <AiOutlineSound size={20}/>
                 <span className='pl-4'>Projects</span>
               </a>
-              <a href="#contact" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
+              <a onClick={handleNav} href="#contact" className='w-[75%] bg-white/90 flex justify-center items-center rounded-full shadow-lg shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 '>
                 <AiOutlinePhone size={20}/>
                 <span className='pl-4'>Contact</span>
               </a>
