@@ -1,5 +1,5 @@
 import css from '../assets/css.png'
-
+import cypress from '../assets/cypress.png'
 import figma from '../assets/figma.png'
 import git from '../assets/git.png'
 import html from '../assets/html.png'
@@ -69,6 +69,10 @@ export const technologies = [
     {
         name: "supabase",
         icon: supabase
+    },
+    {
+        name: "cypress",
+        icon: cypress
     },
     {
         name: "vite",
