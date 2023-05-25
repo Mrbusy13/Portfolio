@@ -8,14 +8,14 @@ const Hero = () => {
   };
   return (
     <div id="main" >
-      <div className='relative h-screen w-full'>
+      <div className='relative h-screen w-screen snap-y snap-mandatory overflow-auto'>
         <MatrixRain />
-        <div className="h-screen w-full absolute top-0 left-0 bg-white/10">
-          <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-            <h1 className="sm:text-8xl text-6xl pl-4 font-bold text-white">
+        <div className="h-full w-full absolute top-0 left-0 flex flex-col justify-center">
+          <div className="min-w-max mx-auto flex flex-col justify-center items-start">
+            <h1 className="text-5xl md:text-9xl  pl-4 font-bold text-white">
               i'm nick hughes
             </h1>
-            <h2 className="sm:text-3xl text-2xl pt-4 pl-4 font-bold text-white">
+            <h2 className="text-xl md:text-5xl pt-4 pl-4 font-bold text-white">
               i'm a{" "}
               <TypeAnimation
                 sequence={[

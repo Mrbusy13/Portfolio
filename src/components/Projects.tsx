@@ -2,7 +2,7 @@ import { projects } from "../data/data";
 import ProjectCard from "./ProjectCard";
 const Projects = () => {
   return (
-    <div id="projects" className="h-screen w-screen bg-slate-500">
+    <div id="projects" className="min-h-screen w-screen bg-slate-500 flex flex-col">
       <div className="text-6xl md:text-8xl font-bold text-gray-100 p-5">
         <h1>projects</h1>
       </div>
