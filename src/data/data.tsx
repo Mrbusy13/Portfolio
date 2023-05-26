@@ -15,6 +15,7 @@ import typescript from '../assets/typescript.png'
 import vite from '../assets/vite.svg'
 import indygo from '../assets/indygo.png'
 import studenthub from '../assets/studenthub.png'
+import portfolio from '../assets/portfolio.png'
 
 
 export const technologies = [
@@ -98,5 +99,14 @@ export const projects = [
         github: "https://github.com/Mrbusy13/indygo",
         url: "https://indygo.netlify.app/",
         techstack:["Next.js", "Typescript", "Supabase", "SupabaseAuth", "Leaflet.js", "Tailwind CSS", "Jest", "Cypress" ]
+    },
+    {
+        index:"3",
+        title: "Portfolio",
+        image: portfolio,
+        summary: "This is my portfolio site to tell my story, showcase some of my projects and the technologies I have learnt. I really enjoyed building this single page React application using Vite and I wanted to learn 3d as it looks so cool so have brought in some Three.js elements",
+        github: "https://github.com/Mrbusy13/Portfolio",
+        url: "https://nickhughes.vercel.app/",
+        techstack:["React.js", "Typescript", "Vite", "React-Three/Fiber", "Three.js", "Tailwind CSS"]
     }
 ]

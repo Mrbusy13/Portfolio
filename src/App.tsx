@@ -17,10 +17,10 @@ function App() {
       <About/>
       </div>
       <div className='snap-start'>
-      <Projects/>
+      <Techstack/>
       </div>
       <div className='snap-start'>
-      <Techstack/>
+      <Projects/>
       </div>
       <div className='snap-start'>
       <Contact/>
