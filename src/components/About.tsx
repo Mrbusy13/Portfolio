@@ -15,8 +15,7 @@ const About = () => {
             <div className="border-2 rounded-xl border-gray-100 shadow-xl w-full md:w-1/3 md:text-2xl text-l font-bold text-gray-100 p-5 flex items-start">
               <p>
                 Originally a southerner, I have migrated north and currently
-                live in Sheffield with my fiancee, Sarah and two boys, Gabriel
-                and Oliver. Providing for my family and being a good role model
+                live in Sheffield with my family. Providing for my family and being a good role model
                 to the boys is a big motivator for me. I want a career I can be
                 proud of and that gives a platform for us to experience life and
                 grow without limitations.
