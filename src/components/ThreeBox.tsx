@@ -26,7 +26,7 @@ const Box = () => {
 const ThreeBoxCanvas = () => {
 
   return (
-    // <div className='h-full w-full '>
+    <div className='h-full w-full '>
         <Canvas 
             shadows='basic'
             camera={{position:[20,3,5], fov:25}}>
@@ -35,7 +35,7 @@ const ThreeBoxCanvas = () => {
             <Box/>
             </Suspense>
         </Canvas>
-    // </div>
+    </div>
   )
 };
 export default ThreeBoxCanvas;

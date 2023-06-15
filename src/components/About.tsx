@@ -7,7 +7,7 @@ const About = () => {
           <h1>my story</h1>
         </div>
         <div className="w-full h-full flex flex-col flex-1 md:flex-row items-center justify-center">
-        <div className="w-full md:w-1/3 min-h-min md:h-full flex grow">
+        <div className="w-full md:w-1/3 min-h-min md:h-[700px]">
           <ThreeBoxCanvas />
         </div>
         <div className="w-full md:w-2/3 md:h-full p-10 flex flex-col">

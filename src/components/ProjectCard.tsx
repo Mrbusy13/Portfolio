@@ -36,7 +36,7 @@ const openInNewTab = (url:any) => {
             ))}
           </ul>
         </div>
-        <div className="absolute bottom-0 flex space-x-2 justify-end p-5">
+        <div className="p-2 border-2 rounded-xl border-gray-100 text-gray-100 absolute bottom-0 flex space-x-2 justify-end">
           <AiOutlineGithub onClick={()=> openInNewTab(github)} className="text-gray-100 cursor-pointer hover:scale-110" size={50} />
           <GoLinkExternal onClick={()=> openInNewTab(url)}
             className="text-gray-100 cursor-pointer hover:scale-110"
