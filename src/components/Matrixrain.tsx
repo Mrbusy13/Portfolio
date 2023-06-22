@@ -11,7 +11,8 @@ const MatrixRain: React.FC = () => {
     c.width = window.innerWidth;
 
     //chinese characters - taken from the unicode charset
-    const matrix :string[]= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}".split("");
+   // const matrix :string[]= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}".split("");
+    const matrix :string[]= "nickhughesNICKHUGHES".split("");
     //converting the string into an array of single characters
     // matrix = matrix.split("");
 
@@ -32,7 +33,7 @@ const MatrixRain: React.FC = () => {
         ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
         ctx.fillRect(0, 0, c.width, c.height);
 
-        ctx.fillStyle = "#f4427d";//green text
+        ctx.fillStyle = "#008529";//green text
         ctx.font = font_size + "px arial";
         //looping over drops
         for(let i = 0; i < drops.length; i++)
