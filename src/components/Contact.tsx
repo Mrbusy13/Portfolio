@@ -15,7 +15,7 @@ const Contact = () => {
         <AiOutlineGithub onClick={()=>openInNewTab('https://github.com/Mrbusy13')} className="cursor-pointer hover:scale-110" size={100} />
         <AiOutlineLinkedin onClick={()=>openInNewTab('https://www.linkedin.com/in/nick-hughes-7a5a428b/')} className="cursor-pointer hover:scale-110" size={100} />
         <div className='flex flex-col items-center gap-2'>
-        <AiOutlineMail className="cursor-pointer" size={100}/><p>nickhughes13@googlemail.com</p>
+        <AiOutlineMail size={100}/><p>nickhughes13@googlemail.com</p>
         </div>
         </div>
        
