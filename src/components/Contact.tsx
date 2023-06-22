@@ -2,11 +2,11 @@ import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from "react-icons/a
 
 
 const Contact = () => {
-  const openInNewTab = (url:any) => {
+  const openInNewTab = (url:string) => {
     window.open(url, "_blank", "noreferrer")
   };
   return (
-    <div id="contact" className='min-h-screen w-full bg-slate-500 text-gray-100 flex flex-col'>
+    <div id="contact" className='min-h-screen w-full bg-cyan-900 text-gray-100 flex flex-col'>
         <div className="text-6xl md:text-8xl font-bold text-gray-100 p-5">
         <h1>contact</h1>        
         </div>

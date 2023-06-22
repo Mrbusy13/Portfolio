@@ -2,7 +2,7 @@ import ThreeBoxCanvas from "./ThreeBox";
 
 const About = () => {
   return (
-    <div id="about" className="min-h-screen w-screen bg-slate-500 flex flex-col">      
+    <div id="about" className="min-h-screen w-screen bg-cyan-900 flex flex-col">      
         <div className="text-6xl md:text-8xl font-bold text-gray-100 p-5">
           <h1>my story</h1>
         </div>

@@ -3,7 +3,7 @@ import SphereCanvas from "./Sphere"
 
 const Techstack = () => {
   return (
-    <div id="tech" className='min-h-screen w-full flex flex-col bg-slate-500'>
+    <div id="tech" className='min-h-screen w-full flex flex-col bg-cyan-900'>
       <div className="text-6xl md:text-8xl font-bold text-gray-100 p-5 flex flex-col items-start">
           <h1>tech-stack</h1>
           <h2 className="text-2xl md:text-4xl pt-5">These are the technologies that I am familiar with</h2>

@@ -8,7 +8,7 @@ import Techstack from './components/Techstack'
 function App() {
  
   return (
-    <div className='snap-y snap-mandatory overflow-auto h-screen w-screen'>
+    <div className='snap-y snap-mandatory overflow-auto h-screen w-screen scroll-smooth'>
       <Sidenav/>
       <div className='snap-start'>
       <Hero />
