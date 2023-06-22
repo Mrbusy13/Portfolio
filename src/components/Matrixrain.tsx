@@ -34,6 +34,7 @@ const MatrixRain: React.FC = () => {
         ctx.fillRect(0, 0, c.width, c.height);
 
         ctx.fillStyle = "#008529";//green text
+        // #f4427d
         ctx.font = font_size + "px arial";
         //looping over drops
         for(let i = 0; i < drops.length; i++)
