@@ -16,7 +16,7 @@ const About = () => {
               <p>
                 Originally a southerner, I have migrated north and currently
                 live in Sheffield with my family. Providing for my family and being a good role model
-                to the boys is a big motivator for me. I want a career I can be
+                to our boys is a big motivator for me. I want a career I can be
                 proud of and that gives a platform for us to experience life and
                 grow without limitations.
               </p>
