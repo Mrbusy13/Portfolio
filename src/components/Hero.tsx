@@ -10,7 +10,7 @@ const Hero = () => {
     <div id="main" >
       <div className='relative h-screen w-screen snap-y snap-mandatory overflow-auto'>
         <MatrixRain />
-        <div className="h-full w-full absolute top-0 left-0 flex flex-col justify-center">
+        <div className="h-screen w-screen absolute top-0 left-0 flex flex-col justify-center">
           <div className="min-w-max mx-auto flex flex-col justify-center items-start">
             <h1 className="text-5xl md:text-9xl  pl-4 font-bold text-white">
               i'm nick hughes
